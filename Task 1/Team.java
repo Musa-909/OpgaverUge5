@@ -35,7 +35,7 @@ class Team {
         if (!playersInTeam.isEmpty()) {
             result += "\nPlayers:";
             for (String player : playersInTeam) {
-                result += "\n- " + player;
+                result += "\n " + player;
             }
         }
 
